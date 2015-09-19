@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.h
+//  BorrowViewController.h
 //  FriendCapital
 //
 //  Created by Cindy Luu on 9/19/15.
@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface SettingsViewController : ViewController
+@interface BorrowRequestViewController : ViewController
 
 @end

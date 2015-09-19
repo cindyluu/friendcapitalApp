@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		259795A9E61E0B28F98ABF09 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E59C8CF053077BA9A46B906F /* libPods.a */; };
+		438433841BADF838009F0EF8 /* LendingOpportunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 438433831BADF838009F0EF8 /* LendingOpportunityTableViewCell.m */; };
+		438433871BADF89D009F0EF8 /* LendingOpportunityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438433861BADF89D009F0EF8 /* LendingOpportunityTableViewController.m */; };
 		84AF3D191BAD30A60066596A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D181BAD30A60066596A /* main.m */; };
 		84AF3D1C1BAD30A60066596A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D1B1BAD30A60066596A /* AppDelegate.m */; };
 		84AF3D1F1BAD30A60066596A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D1E1BAD30A60066596A /* ViewController.m */; };
@@ -19,17 +21,8 @@
 		84AF3D4B1BADCEF80066596A /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D4A1BADCEF80066596A /* HistoryViewController.m */; };
 		84AF3D4F1BADD38A0066596A /* TabBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D4E1BADD38A0066596A /* TabBarDelegate.m */; };
 		84AF3D551BADD5AD0066596A /* tabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D541BADD5AD0066596A /* tabBarController.m */; };
-		84AF3D581BADD9890066596A /* BorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D571BADD9890066596A /* BorrowViewController.m */; };
-		84AF3D5E1BADD9AF0066596A /* LendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D5D1BADD9AF0066596A /* LendViewController.m */; };
-		84AF3D611BADD9C10066596A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D601BADD9C10066596A /* SettingsViewController.m */; };
-		84AF3D631BADDF9F0066596A /* 1login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D621BADDF9F0066596A /* 1login.jpg */; };
-		84AF3D691BADDFA80066596A /* 2.summary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D641BADDFA80066596A /* 2.summary.jpg */; };
-		84AF3D6A1BADDFA80066596A /* 3.notifications.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D651BADDFA80066596A /* 3.notifications.jpg */; };
-		84AF3D6B1BADDFA80066596A /* 4.request.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D661BADDFA80066596A /* 4.request.jpg */; };
-		84AF3D6C1BADDFA80066596A /* 5.offer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D671BADDFA80066596A /* 5.offer.jpg */; };
-		84AF3D6D1BADDFA80066596A /* 6.history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D681BADDFA80066596A /* 6.history.jpg */; };
-		84AF3D6F1BADDFAD0066596A /* 7.borrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D6E1BADDFAD0066596A /* 7.borrow.jpg */; };
-		84C74CF01BADE3A500F62FED /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C74CEF1BADE3A500F62FED /* bg.png */; };
+		84AF3D581BADD9890066596A /* BorrowRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D571BADD9890066596A /* BorrowRequestViewController.m */; };
+		84AF3D5E1BADD9AF0066596A /* ViewBorrowRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D5D1BADD9AF0066596A /* ViewBorrowRequestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		438433821BADF838009F0EF8 /* LendingOpportunityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LendingOpportunityTableViewCell.h; sourceTree = "<group>"; };
+		438433831BADF838009F0EF8 /* LendingOpportunityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LendingOpportunityTableViewCell.m; sourceTree = "<group>"; };
+		438433851BADF89D009F0EF8 /* LendingOpportunityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LendingOpportunityTableViewController.h; sourceTree = "<group>"; };
+		438433861BADF89D009F0EF8 /* LendingOpportunityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LendingOpportunityTableViewController.m; sourceTree = "<group>"; };
 		84AF3D131BAD30A60066596A /* FriendCapital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendCapital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AF3D171BAD30A60066596A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AF3D181BAD30A60066596A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,20 +61,10 @@
 		84AF3D4E1BADD38A0066596A /* TabBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarDelegate.m; sourceTree = "<group>"; };
 		84AF3D531BADD5AD0066596A /* tabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarController.h; sourceTree = "<group>"; };
 		84AF3D541BADD5AD0066596A /* tabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarController.m; sourceTree = "<group>"; };
-		84AF3D561BADD9890066596A /* BorrowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrowViewController.h; sourceTree = "<group>"; };
-		84AF3D571BADD9890066596A /* BorrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrowViewController.m; sourceTree = "<group>"; };
-		84AF3D5C1BADD9AF0066596A /* LendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LendViewController.h; sourceTree = "<group>"; };
-		84AF3D5D1BADD9AF0066596A /* LendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LendViewController.m; sourceTree = "<group>"; };
-		84AF3D5F1BADD9C10066596A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		84AF3D601BADD9C10066596A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		84AF3D621BADDF9F0066596A /* 1login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1login.jpg; sourceTree = "<group>"; };
-		84AF3D641BADDFA80066596A /* 2.summary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.summary.jpg; sourceTree = "<group>"; };
-		84AF3D651BADDFA80066596A /* 3.notifications.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.notifications.jpg; sourceTree = "<group>"; };
-		84AF3D661BADDFA80066596A /* 4.request.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.request.jpg; sourceTree = "<group>"; };
-		84AF3D671BADDFA80066596A /* 5.offer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.offer.jpg; sourceTree = "<group>"; };
-		84AF3D681BADDFA80066596A /* 6.history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.history.jpg; sourceTree = "<group>"; };
-		84AF3D6E1BADDFAD0066596A /* 7.borrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.borrow.jpg; sourceTree = "<group>"; };
-		84C74CEF1BADE3A500F62FED /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		84AF3D561BADD9890066596A /* BorrowRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrowRequestViewController.h; sourceTree = "<group>"; };
+		84AF3D571BADD9890066596A /* BorrowRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrowRequestViewController.m; sourceTree = "<group>"; };
+		84AF3D5C1BADD9AF0066596A /* ViewBorrowRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBorrowRequestController.h; sourceTree = "<group>"; };
+		84AF3D5D1BADD9AF0066596A /* ViewBorrowRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBorrowRequestController.m; sourceTree = "<group>"; };
 		E59C8CF053077BA9A46B906F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0B26C49DE003B9BD5624F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EC48D05CEF089233D4548CF1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,14 +119,6 @@
 				84AF3D201BAD30A60066596A /* Main.storyboard */,
 				84AF3D4C1BADCF0B0066596A /* TabBarControllers */,
 				84AF3D231BAD30A60066596A /* Images.xcassets */,
-				84C74CEF1BADE3A500F62FED /* bg.png */,
-				84AF3D621BADDF9F0066596A /* 1login.jpg */,
-				84AF3D641BADDFA80066596A /* 2.summary.jpg */,
-				84AF3D651BADDFA80066596A /* 3.notifications.jpg */,
-				84AF3D661BADDFA80066596A /* 4.request.jpg */,
-				84AF3D671BADDFA80066596A /* 5.offer.jpg */,
-				84AF3D681BADDFA80066596A /* 6.history.jpg */,
-				84AF3D6E1BADDFAD0066596A /* 7.borrow.jpg */,
 				84AF3D251BAD30A60066596A /* LaunchScreen.xib */,
 				84AF3D161BAD30A60066596A /* Supporting Files */,
 			);
@@ -183,12 +162,14 @@
 				84AF3D471BADCEE70066596A /* SummaryViewController.m */,
 				84AF3D491BADCEF80066596A /* HistoryViewController.h */,
 				84AF3D4A1BADCEF80066596A /* HistoryViewController.m */,
-				84AF3D561BADD9890066596A /* BorrowViewController.h */,
-				84AF3D571BADD9890066596A /* BorrowViewController.m */,
-				84AF3D5C1BADD9AF0066596A /* LendViewController.h */,
-				84AF3D5D1BADD9AF0066596A /* LendViewController.m */,
-				84AF3D5F1BADD9C10066596A /* SettingsViewController.h */,
-				84AF3D601BADD9C10066596A /* SettingsViewController.m */,
+				84AF3D561BADD9890066596A /* BorrowRequestViewController.h */,
+				84AF3D571BADD9890066596A /* BorrowRequestViewController.m */,
+				84AF3D5C1BADD9AF0066596A /* ViewBorrowRequestController.h */,
+				84AF3D5D1BADD9AF0066596A /* ViewBorrowRequestController.m */,
+				438433821BADF838009F0EF8 /* LendingOpportunityTableViewCell.h */,
+				438433831BADF838009F0EF8 /* LendingOpportunityTableViewCell.m */,
+				438433851BADF89D009F0EF8 /* LendingOpportunityTableViewController.h */,
+				438433861BADF89D009F0EF8 /* LendingOpportunityTableViewController.m */,
 			);
 			name = TabBarControllers;
 			sourceTree = "<group>";
@@ -292,17 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84AF3D691BADDFA80066596A /* 2.summary.jpg in Resources */,
-				84AF3D6B1BADDFA80066596A /* 4.request.jpg in Resources */,
 				84AF3D221BAD30A60066596A /* Main.storyboard in Resources */,
-				84AF3D6F1BADDFAD0066596A /* 7.borrow.jpg in Resources */,
-				84AF3D6D1BADDFA80066596A /* 6.history.jpg in Resources */,
 				84AF3D271BAD30A60066596A /* LaunchScreen.xib in Resources */,
 				84AF3D241BAD30A60066596A /* Images.xcassets in Resources */,
-				84AF3D631BADDF9F0066596A /* 1login.jpg in Resources */,
-				84AF3D6A1BADDFA80066596A /* 3.notifications.jpg in Resources */,
-				84C74CF01BADE3A500F62FED /* bg.png in Resources */,
-				84AF3D6C1BADDFA80066596A /* 5.offer.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,12 +328,13 @@
 			files = (
 				84AF3D1F1BAD30A60066596A /* ViewController.m in Sources */,
 				84AF3D1C1BAD30A60066596A /* AppDelegate.m in Sources */,
-				84AF3D5E1BADD9AF0066596A /* LendViewController.m in Sources */,
+				84AF3D5E1BADD9AF0066596A /* ViewBorrowRequestController.m in Sources */,
+				438433841BADF838009F0EF8 /* LendingOpportunityTableViewCell.m in Sources */,
+				438433871BADF89D009F0EF8 /* LendingOpportunityTableViewController.m in Sources */,
 				84AF3D191BAD30A60066596A /* main.m in Sources */,
-				84AF3D581BADD9890066596A /* BorrowViewController.m in Sources */,
+				84AF3D581BADD9890066596A /* BorrowRequestViewController.m in Sources */,
 				84AF3D481BADCEE70066596A /* SummaryViewController.m in Sources */,
 				84AF3D551BADD5AD0066596A /* tabBarController.m in Sources */,
-				84AF3D611BADD9C10066596A /* SettingsViewController.m in Sources */,
 				84AF3D4B1BADCEF80066596A /* HistoryViewController.m in Sources */,
 				84AF3D4F1BADD38A0066596A /* TabBarDelegate.m in Sources */,
 			);

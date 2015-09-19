@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface LendViewController : ViewController
+@interface ViewBorrowRequestController : ViewController
 
 @end

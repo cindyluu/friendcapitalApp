@@ -6,13 +6,16 @@
 //  Copyright (c) 2015 Cindy Luu. All rights reserved.
 //
 
-#import "BorrowViewController.h"
+#import "BorrowRequestViewController.h"
 
-@interface BorrowViewController ()
+@interface BorrowRequestViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *amount;
+@property (weak, nonatomic) IBOutlet UITextField *loanLengthInMonths;
+@property (weak, nonatomic) IBOutlet UITextView *loanDescription;
 
 @end
 
-@implementation BorrowViewController
+@implementation BorrowRequestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +25,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Publish
+- (IBAction)publishToNetwork:(id)sender {
+    //send to server to create loan
+    
+    //segue to summary
 }
 
 /*
