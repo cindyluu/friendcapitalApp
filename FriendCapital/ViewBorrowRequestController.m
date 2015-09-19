@@ -1,18 +1,21 @@
 //
-//  SettingsViewController.m
+//  LendViewController.m
 //  FriendCapital
 //
 //  Created by Cindy Luu on 9/19/15.
 //  Copyright (c) 2015 Cindy Luu. All rights reserved.
 //
 
-#import "SettingsViewController.h"
+#import "ViewBorrowRequestController.h"
 
-@interface SettingsViewController ()
+@interface ViewBorrowRequestController ()
+@property (weak, nonatomic) IBOutlet UITextView *toplineRequestDescription;
+@property (weak, nonatomic) IBOutlet UITextView *fullRequestDescription;
+@property (weak, nonatomic) IBOutlet UITextField *offeredRate;
 
 @end
 
-@implementation SettingsViewController
+@implementation ViewBorrowRequestController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,6 +26,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)sendLoanOffer:(id)sender {
+    //send loan offer to server, update loan and user
+    
+    //segue to list page of loan requests
+}
+
+- (IBAction)ignoreLoanRequest:(id)sender {
+    //update user (maybe loan)
+    
+    //segue to list page of loan requests
+}
+
 
 /*
 #pragma mark - Navigation
