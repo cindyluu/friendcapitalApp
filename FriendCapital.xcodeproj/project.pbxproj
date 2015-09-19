@@ -18,9 +18,6 @@
 		84AF3D271BAD30A60066596A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AF3D251BAD30A60066596A /* LaunchScreen.xib */; };
 		84AF3D331BAD30A60066596A /* FriendCapitalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D321BAD30A60066596A /* FriendCapitalTests.m */; };
 		84AF3D481BADCEE70066596A /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D471BADCEE70066596A /* SummaryViewController.m */; };
-		84AF3D4B1BADCEF80066596A /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D4A1BADCEF80066596A /* HistoryViewController.m */; };
-		84AF3D4F1BADD38A0066596A /* TabBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D4E1BADD38A0066596A /* TabBarDelegate.m */; };
-		84AF3D551BADD5AD0066596A /* tabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D541BADD5AD0066596A /* tabBarController.m */; };
 		84AF3D581BADD9890066596A /* BorrowRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D571BADD9890066596A /* BorrowRequestViewController.m */; };
 		84AF3D5E1BADD9AF0066596A /* ViewBorrowRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF3D5D1BADD9AF0066596A /* ViewBorrowRequestController.m */; };
 /* End PBXBuildFile section */
@@ -55,12 +52,6 @@
 		84AF3D321BAD30A60066596A /* FriendCapitalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendCapitalTests.m; sourceTree = "<group>"; };
 		84AF3D461BADCEE70066596A /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryViewController.h; sourceTree = "<group>"; };
 		84AF3D471BADCEE70066596A /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryViewController.m; sourceTree = "<group>"; };
-		84AF3D491BADCEF80066596A /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
-		84AF3D4A1BADCEF80066596A /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
-		84AF3D4D1BADD38A0066596A /* TabBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarDelegate.h; sourceTree = "<group>"; };
-		84AF3D4E1BADD38A0066596A /* TabBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarDelegate.m; sourceTree = "<group>"; };
-		84AF3D531BADD5AD0066596A /* tabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarController.h; sourceTree = "<group>"; };
-		84AF3D541BADD5AD0066596A /* tabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarController.m; sourceTree = "<group>"; };
 		84AF3D561BADD9890066596A /* BorrowRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrowRequestViewController.h; sourceTree = "<group>"; };
 		84AF3D571BADD9890066596A /* BorrowRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrowRequestViewController.m; sourceTree = "<group>"; };
 		84AF3D5C1BADD9AF0066596A /* ViewBorrowRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBorrowRequestController.h; sourceTree = "<group>"; };
@@ -154,14 +145,8 @@
 		84AF3D4C1BADCF0B0066596A /* TabBarControllers */ = {
 			isa = PBXGroup;
 			children = (
-				84AF3D4D1BADD38A0066596A /* TabBarDelegate.h */,
-				84AF3D4E1BADD38A0066596A /* TabBarDelegate.m */,
-				84AF3D531BADD5AD0066596A /* tabBarController.h */,
-				84AF3D541BADD5AD0066596A /* tabBarController.m */,
 				84AF3D461BADCEE70066596A /* SummaryViewController.h */,
 				84AF3D471BADCEE70066596A /* SummaryViewController.m */,
-				84AF3D491BADCEF80066596A /* HistoryViewController.h */,
-				84AF3D4A1BADCEF80066596A /* HistoryViewController.m */,
 				84AF3D561BADD9890066596A /* BorrowRequestViewController.h */,
 				84AF3D571BADD9890066596A /* BorrowRequestViewController.m */,
 				84AF3D5C1BADD9AF0066596A /* ViewBorrowRequestController.h */,
@@ -334,9 +319,6 @@
 				84AF3D191BAD30A60066596A /* main.m in Sources */,
 				84AF3D581BADD9890066596A /* BorrowRequestViewController.m in Sources */,
 				84AF3D481BADCEE70066596A /* SummaryViewController.m in Sources */,
-				84AF3D551BADD5AD0066596A /* tabBarController.m in Sources */,
-				84AF3D4B1BADCEF80066596A /* HistoryViewController.m in Sources */,
-				84AF3D4F1BADD38A0066596A /* TabBarDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
