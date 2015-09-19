@@ -40,13 +40,13 @@
 #warning Incomplete method implementation.
     //get potential loans for this user
     // Return the number of rows in the section.
-    return 0;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LendOppCell" forIndexPath:indexPath];
     
-    cell.imageView.layer.cornerRadius = 
+    cell.imageView.layer.cornerRadius = cell.bounds.size.height*2/5;
     
     // Configure the cell...
     
